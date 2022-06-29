@@ -47,6 +47,15 @@
     font-size: 85%;
 }
 
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+
 body {
     font-family: 'Nanum';
     font-size: 14px;
@@ -68,9 +77,31 @@ nav {
     display: block;
     width: 100%;
     height: 45px;
+    margin:0;
 }
 
 nav span {
+    display: inline-block;
     font-size: 15px;
-    padding: 15px 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
+
+#home-image {
+    display: block;
+    width: 100%;
+    height: 600px;
+    background: url("images/home-image.jpg") no-repeat;
+}
+
+#home-image span{
+    display: block;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
