@@ -454,7 +454,7 @@ main {
     max-width: 100px;
     font-size: 30px;
     margin: auto;
-    padding: 5px;
+    padding-top: 100px;
     text-align:center;
 }
 
@@ -494,4 +494,29 @@ main {
 #faq{
     margin: 0 auto;
     width: 700px;
+}
+
+.study{
+    height: 500px;
+    background-color: #999;
+    position: relative;
+    padding: 160px;
+}
+
+#desktop{
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+}
+
+#studyWithUs {
+    color: white;
+    font-size: 30px;
+    font-weight: 30;
+    text-align: center;
+}
+
+#desk{
+    height: 100px;
+    text-align: center;
 }
