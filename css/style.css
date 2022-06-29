@@ -2,8 +2,40 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Nanum Square';
+    src: url('')
+}
+
 .text-center {
     text-align: center;
+}
+
+.aboutUS {
+    padding: 85px 0;
+}
+
+.bg-success {
+    background-color: #efefef;
+}
+
+.container {
+    width: 750px;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .aboutUS h2, hr {
@@ -11,18 +43,12 @@
     margin-bottom: 15px;
 }
 
-.container {
-    width: 1170px;
-    padding: 0 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 .small {
     font-size: 85%;
 }
 
 body {
-    font-family: KoPubWorldBatang_Pro, sans-serif;
+    font-family: ;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
