@@ -3,7 +3,7 @@
 }
 
 @font-face {
-    font-family: 'Nanum Square';
+    font-family: 'Nanum';
     src: url('../fonts/NanumSquareR.ttf') format('truetype');
 }
 
@@ -48,7 +48,7 @@
 }
 
 body {
-    font-family: 'Nanum Square';
+    font-family: 'Nanum';
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
