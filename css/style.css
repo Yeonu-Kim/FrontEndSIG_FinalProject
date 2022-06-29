@@ -212,12 +212,14 @@ nav div span {
 nav div span:hover {
     background-color:black;
     color: white;
-    padding: 0.3em 0.5em;
+    padding: 0.3em 0.7em;
     text-decoration: none;
 }
 
 .nav-center {
-    margin-left: 400px;
+    margin: auto;
+    text-align: center;
+    width: max-content
 }
 
 #home-image {
