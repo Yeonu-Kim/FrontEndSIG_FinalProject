@@ -201,7 +201,7 @@
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
     width: 100%;
-    height: 500px;
+    height: 550px;
 }
 
 .input-padding {
@@ -519,4 +519,19 @@ main {
 #desk{
     height: 100px;
     text-align: center;
+}
+
+.d-grid {
+    display: grid !important;
+}
+
+.btn .disabled {
+    pointer-events: none;
+    opacity: 0.65;
+}
+
+primary.disabled {
+    color: #fff;
+    background-color: #d63384;
+    border-color: #d63384;
 }
