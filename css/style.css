@@ -6,6 +6,9 @@
     font-family: 'Nanum';
     src: url('../fonts/NanumSquareR.ttf') format('truetype');
 }
+a {
+    text-size:15px;
+}
 
 .text-center {
     text-align: center;
