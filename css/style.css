@@ -240,3 +240,11 @@ main {
 #home-image a span {
     color: black;
 }
+
+.answer {
+    text-align: right;
+}
+
+.question {
+    text-align: left;
+}
