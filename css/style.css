@@ -99,7 +99,7 @@ body {
 
 section {
     width: 1425px;
-    height: 623.289px;
+    height: 705px;
 }
 
 h2 {
@@ -131,6 +131,16 @@ img {
 
 b {
     font-family: 'Nanum Bold';
+}
+
+input {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: 'Nanum';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter
 }
 
 nav {
