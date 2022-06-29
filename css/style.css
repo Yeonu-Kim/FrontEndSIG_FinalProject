@@ -177,7 +177,7 @@ main {
 
 #header {
     border-bottom: 2px solid gray;
-    max-width: 130px;
+    max-width: 200px;
     margin: auto;
     padding: 5px;
     text-align:center;
@@ -190,6 +190,7 @@ main {
     height:50%;
     text-align: center;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 #block1, #block2, #block3, #block4 {
@@ -197,6 +198,10 @@ main {
     width: 200px;
     float: left;
     padding: 20px;
+}
+
+.icon-image {
+    width: 150px;
 }
 
 .home-image-title {
