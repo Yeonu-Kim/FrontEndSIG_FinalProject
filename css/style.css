@@ -1,7 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.aboutUS h2, hr {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.small {
+    font-size: 85%;
+}
+
+body {
+    font-family: KoPubWorldBatang_Pro, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
 hr {
     max-width: 100px;
     border: 0;
     border-top: 1px solid #eee;
-    height: 0;
-    box-sizing:
+    height: 1px;
 }
+
