@@ -329,9 +329,29 @@ main {
 
 .faqSector {
     height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
 }
 
 .faqContents{
     width: 700px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.apostrophe{
+    content: "\201C";
+    font-size: 120px;
+    color: #44546A;
+    font-family: Georgia, Serif;
+    display: inline;
+    top: -40px;
+    left: -55px;
+    position: absolute;
+}
+
+#faq{
     margin: 0 auto;
+    width: 700px;
 }
