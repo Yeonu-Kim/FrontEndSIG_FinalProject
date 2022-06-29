@@ -4,7 +4,15 @@
 
 @font-face {
     font-family: 'Nanum';
-    src: url('../fonts/NanumSquareR.ttf') format('truetype');
+    src: url('../fonts/NanumSquareL.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nanum Bold';
+    src: url('../fonts/NanumSquareB.ttf') format('truetype');
+}
+a {
+    text-size:15px;
 }
 
 .text-center {
@@ -89,6 +97,15 @@ body {
     background-color: #fff;
 }
 
+section {
+    width: 1425px;
+    height: 623.289px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
 hr {
     max-width: 100px;
     border: 0;
@@ -110,6 +127,10 @@ img {
     vertical-align: middle;
     border: 0;
     width: 375px;
+}
+
+b {
+    font-family: 'Nanum Bold';
 }
 
 nav {
