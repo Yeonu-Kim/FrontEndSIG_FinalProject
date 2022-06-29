@@ -47,6 +47,31 @@
     font-size: 85%;
 }
 
+.img-aboutUS {
+    margin: 5px auto 30px auto;
+    max-width: 380px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.fadeIn {
+    opacity: 0.4;
+}
+
+.text-info {
+    color: #44546A;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     font-family: 'Nanum';
     font-size: 14px;
@@ -58,11 +83,25 @@ body {
 hr {
     max-width: 100px;
     border: 0;
-    border-top: 1px solid #eee;
+    border-top: 1px solid black;
     height: 1px;
 }
 
-/*home css*/
+figure {
+    opacity: 1;
+    display: block;
+    margin: 1em 40px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+    width: 375px;
+}
 
 nav {
     display: block;
@@ -74,3 +113,6 @@ nav span {
     font-size: 15px;
     padding: 15px 10px;
 }
+
+
+
