@@ -178,7 +178,6 @@ nav div {
     width: 60%;
     height: 45px;
     /* float: right; */
-    margin-left: 400px;
 }
 
 nav div span {
@@ -198,6 +197,9 @@ nav div span:hover {
     text-decoration: none;
 }
 
+.nav-center {
+    margin-left: 400px;
+}
 
 #home-image {
     display: block;
