@@ -359,3 +359,25 @@ main {
     margin: 0 auto;
     width: 700px;
 }
+
+.study{
+    height: 500px;
+    background-color: #999;
+    position: relative;
+    padding: 160px;
+}
+
+#desktop{
+    margin: 0 auto;
+    height: 64px;
+    width: 64px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#studyWithUs {
+    color: white;
+    font-size: 30px;
+    font-weight: 30;
+    vertical-align: middle;
+}
