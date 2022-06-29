@@ -293,7 +293,6 @@ nav div {
     width: 60%;
     height: 45px;
     /* float: right; */
-    margin-left: 400px;
 }
 
 nav div span {
@@ -309,10 +308,15 @@ nav div span {
 nav div span:hover {
     background-color:black;
     color: white;
-    padding: 0.3em 0.5em;
+    padding: 0.3em 0.7em;
     text-decoration: none;
 }
 
+.nav-center {
+    margin: auto;
+    text-align: center;
+    width: max-content
+}
 
 #home-image {
     display: block;
@@ -395,8 +399,59 @@ main {
 
 .answer {
     text-align: right;
+    border: 1px dashed lightgray;
+    padding: 20px 10px 20px 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .question {
     text-align: left;
+}
+
+#faqTitle {
+    border-bottom: 2px solid gray;
+    max-width: 100px;
+    font-size: 30px;
+    margin: auto;
+    padding: 5px;
+    text-align:center;
+}
+
+#faqSub {
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align:center;
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+}
+
+.faqSector {
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+}
+
+.faqContents{
+    width: 700px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.apostrophe{
+    content: "\201C";
+    font-size: 120px;
+    color: #44546A;
+    font-family: Georgia, Serif;
+    display: inline;
+    top: -40px;
+    left: -55px;
+    position: absolute;
+}
+
+#faq{
+    margin: 0 auto;
+    width: 700px;
 }
