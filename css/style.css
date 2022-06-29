@@ -11,9 +11,6 @@
     font-family: 'Nanum Bold';
     src: url('../fonts/NanumSquareB.ttf') format('truetype');
 }
-a {
-    text-size:15px;
-}
 
 .text-center {
     text-align: center;
@@ -89,6 +86,25 @@ a {
     height: auto;
 }
 
+.form-control {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+
+.text-vertical-center {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.signup-section {
+    background-color: dimgrey;
+}
+
 body {
     font-family: 'Nanum';
     font-size: 14px;
@@ -99,7 +115,7 @@ body {
 
 section {
     width: 1425px;
-    height: 705px;
+    height: 450px;
 }
 
 h2 {
@@ -133,13 +149,22 @@ b {
     font-family: 'Nanum Bold';
 }
 
+form {
+    margin: 0 auto;
+    padding: 180px;
+}
+
 input {
+    width: 500px;
+    margin: 0;
     box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
     padding: 1.25rem 2rem;
     height: auto;
     font-family: 'Nanum';
     font-size: 80%;
     text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
 }
 
 nav {
@@ -182,6 +207,8 @@ main {
     padding: 70px 0;
     margin: 0 auto;
     width: max-content;
+    height: 530px;
+    overflow: hidden;
 }
 
 #header {
