@@ -31,6 +31,16 @@
     margin-left: auto;
 }
 
+.px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
 .row {
     margin-right: -15px;
     margin-left: -15px;
@@ -96,13 +106,26 @@
     background-clip: padding-box;
 }
 
-.text-vertical-center {
-    width: 600px;
-    margin: 0 auto;
+.signup-section {
+    background-color: #f8f9fa !important;
+    opacity: 1;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    width: 1425px;
+    height: 450px;
 }
 
-.signup-section {
-    background-color: dimgrey;
+.input-padding {
+    display: inline-block;
+    width: 636.82px;
+    padding: 0 12px;
+}
+
+.col-auto {
+    display: inline-block;
+    margin: 0;
+    width: 187.18px;
+    padding: 0 12px;
 }
 
 body {
@@ -111,11 +134,6 @@ body {
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
-}
-
-section {
-    width: 1425px;
-    height: 450px;
 }
 
 h2 {
@@ -150,6 +168,7 @@ b {
 }
 
 form {
+    width: 800px;
     margin: 0 auto;
     padding: 180px;
 }
@@ -219,7 +238,7 @@ main {
     padding: 70px 0;
     margin: 0 auto;
     width: max-content;
-    height: 530px;
+    height: 600px;
     overflow: hidden;
 }
 
