@@ -188,10 +188,16 @@ nav div span {
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-
-
     margin: 10px 30px;
 }
+
+nav div span:hover {
+    background-color:black;
+    color: white;
+    padding: 0.3em 0.5em;
+    text-decoration: none;
+}
+
 
 #home-image {
     display: block;
